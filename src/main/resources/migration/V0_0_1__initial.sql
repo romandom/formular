@@ -7,3 +7,7 @@ CREATE TABLE form(
 	your_request varchar(5000) NOT NULL
 );
 
+CREATE TABLE kind_of_request(
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    kind_of_request varchar(20) NOT NULL
+);
